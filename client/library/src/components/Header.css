@@ -1,0 +1,39 @@
+.navbar{
+    display: flex;
+    background-color: #44bee4;
+    height: 65px;
+
+}
+.navbar > ul > li{
+    margin-top: -6px;
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+    color:white;
+    position: absolute;
+    left:87px;
+    font-size: 20px;
+}
+.profile{
+    margin-top: 9px;
+    position: absolute;
+    padding: 10px;
+    font-size: 20px;
+    right: 15px;
+    color: white;
+    cursor: pointer;
+}
+.navbar > ul > li:hover{
+    background-color:white;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #44bee4;
+
+
+}
+.profile:hover{
+    background-color:white;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #44bee4;
+}

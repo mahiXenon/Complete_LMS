@@ -1,0 +1,14 @@
+.book-card{
+    background-color: aliceblue;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    /* width:70%; */
+}
+.book-card:hover{
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+.book-card-field{
+    font-size: 20px;
+}

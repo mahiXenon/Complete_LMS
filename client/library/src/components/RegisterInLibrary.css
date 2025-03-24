@@ -1,0 +1,38 @@
+.main-register{
+    text-align: center;
+}
+.table-design{
+    /* padding: 100px; */
+    margin: auto;
+    text-align: center;
+    /* margin: auto; */
+}
+table{
+    /* border: 2px solid black; */
+    text-align: center;
+    width:70%
+}
+th {
+    text-align: center;
+    border: 1px solid #dddddd;
+    padding: 8px;
+}
+td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    /* padding: 10px; */
+    
+  }
+  td > button {
+    word-wrap: break-word;
+    margin-top:10px;
+    margin-bottom: 10px;
+    padding: 20px;
+  }
+  
+  tr:nth-child(even) {
+    /* background-color: #8345B6; */
+    /* border: none; */
+    /* background-color: white; */
+    /* color: white; */
+  } 

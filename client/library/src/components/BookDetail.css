@@ -1,0 +1,37 @@
+.book-container{
+    text-align: center;
+}
+
+.icons{
+    padding-right: 10px;
+}
+.card-maintain{
+    display:grid;
+    grid-template-areas: 
+    "null null null null"
+    "card card card card";
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    gap: 10px;
+    padding: 10px;
+}
+.card-maintain > p {
+    grid-area: null;
+}
+
+
+@media screen and (max-width: 850px) {
+    .card-maintain{
+        display: grid;
+        grid-template-areas:
+        "card card card";
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    @media screen and (max-width: 650px) {
+        .card-maintain{
+            display: grid;
+            grid-template-areas:
+            "card card";
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+}
