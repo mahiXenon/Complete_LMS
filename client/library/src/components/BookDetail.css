@@ -11,8 +11,8 @@
     "null null null null"
     "card card card card";
     grid-template-columns: 1fr 1fr 1fr 1fr ;
-    gap: 10px;
-    padding: 10px;
+    gap: 15px;
+    padding: 20px;
 }
 .card-maintain > p {
     grid-area: null;
