@@ -114,6 +114,9 @@ function Login() {
   return (
     <div className="main">
       <ToastContainer/>
+      <div className="sideImage">
+        <img src={image} style={{height:"100%",width:"100%"}} alt="" />
+      </div>
       <div className="form">
         <form onSubmit = {handleSubmit}>
           <div className="formContain">
@@ -152,9 +155,6 @@ function Login() {
             
           </div>
         </form>
-      </div>
-      <div className="sideImage">
-        <img src={image} style={{height:"100%",width:"100%"}} alt="" />
       </div>
     </div>
   );

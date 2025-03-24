@@ -10,16 +10,18 @@
 table{
     /* border: 2px solid black; */
     text-align: center;
-    width:70%
+    width:100%;
 }
 th {
     text-align: center;
     border: 1px solid #dddddd;
     padding: 8px;
+    background-color: beige;
 }
 td {
     border: 1px solid #dddddd;
     text-align: center;
+    background-color: rgb(196, 196, 179);
     /* padding: 10px; */
     
   }
